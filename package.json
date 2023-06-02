@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-getting-better",
+  "version": "1.0.5",
+  "description": "ESLint config for Getting Better projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-getting-better"
+  ],
+  "author": "getting-better-org",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import-helpers": "^1.3.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-storybook": "^0.6.10",
+    "prettier-plugin-tailwindcss": "^0.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  }
+}
